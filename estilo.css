@@ -184,3 +184,65 @@ section:nth-of-type(odd) {
   background-color: #f3f3f3;
   border-radius: 12px;
 }
+main.container {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+body {
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+}
+body {
+  background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white; 
+  
+}
+/* Esto pone en negro todo el texto del sitio */
+blockquote, p, span, a, li, div {
+  color: black !important;
+}
+footer{
+  color: white;
+}
+carousel-caption {
+      background-color: rgba(0, 0, 0, 0.5);
+      color: #e61919;
+      border-radius: 10px;
+      padding: 10px;
+    }
+
+    .carousel-caption h5 {
+      color: #ffffff;
+    }
+
+    .carousel-caption p {
+      color: #e0e0e0;
+    }
+    .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); /* fondo negro semitransparente */
+    color: #fff; /* texto blanco */
+    border-radius: 10px;
+    padding: 10px;
+  }
+
+  .carousel-caption h5 {
+    color: #ffffff;
+  }
+
+  .carousel-caption p {
+    color: #e0e0e0;
+  }
+ .carousel-item img {
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.carousel-item img:hover {
+  transform: scale(1.02);
+}
